@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 
+/// <summary>
+/// Йоанна Милкова Гичева, F090350
+/// </summary>
 namespace PlanetResearch.Forms
 {
     /// <summary>

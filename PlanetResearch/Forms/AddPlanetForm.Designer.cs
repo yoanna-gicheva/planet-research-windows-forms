@@ -11,7 +11,6 @@ using System.Windows.Forms;
 namespace PlanetResearch.Forms
 {
     /// <summary>
-    /// F090350, Йоанна Милкова Гичева
     /// Частичен клас на <see cref="AddPlanetForm"/>, съдържащ визуалните контроли и тяхната инициализация.
     /// </summary>
     partial class AddPlanetForm
@@ -166,4 +165,36 @@ namespace PlanetResearch.Forms
             this.comboBoxType.Size = new System.Drawing.Size(200, 24);
 
             // checkBoxAtmosphere
-            this.checkBoxAtmosphere.Location = new System.Drawing.Poin
+            this.checkBoxAtmosphere.Location = new System.Drawing.Point(20, 220);
+            this.checkBoxAtmosphere.Text = "Has Atmosphere";
+
+            // btnSave
+            this.btnSave.Location = new System.Drawing.Point(20, 260);
+            this.btnSave.Size = new System.Drawing.Size(100, 30);
+            this.btnSave.Text = "Save";
+            this.btnSave.Click += new EventHandler(this.btnSave_Click);
+
+            // --- Настройка на формата ---
+            this.ClientSize = new System.Drawing.Size(250, 310);
+            this.Controls.Add(this.lblName);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.lblStarSystem);
+            this.Controls.Add(this.txtStarSystem);
+            this.Controls.Add(this.lblDistance);
+            this.Controls.Add(this.numericDistance);
+            this.Controls.Add(this.lblMass);
+            this.Controls.Add(this.numericMass);
+            this.Controls.Add(this.lblType);
+            this.Controls.Add(this.comboBoxType);
+            this.Controls.Add(this.checkBoxAtmosphere);
+            this.Controls.Add(this.btnSave);
+
+            this.Text = "Add Planet";
+
+            ((System.ComponentModel.ISupportInitialize)(this.numericDistance)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericMass)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }
+    }
+}

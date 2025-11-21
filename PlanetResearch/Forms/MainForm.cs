@@ -46,7 +46,7 @@ namespace PlanetResearch.Forms
             dataGridViewPlanets.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Star System", DataPropertyName = "StarSystem" });
             dataGridViewPlanets.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Distance", DataPropertyName = "DistanceFromEarth" });
             dataGridViewPlanets.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Type", DataPropertyName = "Type" });
-            dataGridViewPlanets.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Mass", DataPropertyName = "Mass" });
+            dataGridViewPlanets.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Mass (Earth masses):", DataPropertyName = "Mass" });
             dataGridViewPlanets.Columns.Add(new DataGridViewCheckBoxColumn { HeaderText = "Atmosphere", DataPropertyName = "HasAtmosphere" });
         }
 
