@@ -36,16 +36,3 @@ Planet Research е настолно приложение за управлени
 - **Windows Forms**  
 - **DataGridView** за визуализация на списъци  
 
-## Структура на проекта
-PlanetResearch/
-│
-├─ Forms/
-│ ├─ MainForm.cs
-│ ├─ AddPlanetForm.cs
-│ └─ EditPlanetForm.cs
-│
-├─ Repositories/
-│ └─ PlanetRepository.cs
-│
-└─ Models/
-└─ Planet.cs
