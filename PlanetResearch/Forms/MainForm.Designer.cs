@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 
+/// <summary>
+/// Йоанна Милкова Гичева, F090350
+/// </summary>
 namespace PlanetResearch.Forms
 {
     partial class MainForm

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PlanetResearch.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -7,13 +8,28 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 
+/// <summary>
+/// Йоанна Милкова Гичева, F090350
+/// </summary>
 namespace PlanetResearch.Forms
 {
+    /// <summary>
+    /// Форма за редактиране на съществуваща планета.
+    /// Позволява на потребителя да промени свойства като име, маса, тип и наличие на атмосфера.
+    /// </summary>
     public partial class EditPlanetForm : Form
     {
-        public Planet EditedPlanet { get; private set; }
+        /// <summary>
+        /// Връща планетата, която се редактира.
+        /// </summary>
+        public Interfaces.IPlanet EditedPlanet { get; private set; }
 
-        public EditPlanetForm(Planet planet)
+        /// <summary>
+        /// Инициализира нова инстанция на <see cref="EditPlanetForm"/> с предварително зададена планета.
+        /// Попълва контролните полета с текущите стойности на планетата.
+        /// </summary>
+        /// <param name="planet">Планетата, която ще бъде редактирана.</param>
+        public EditPlanetForm(Interfaces.IPlanet planet)
         {
             this.BackgroundImage = Image.FromFile("8021306cc8a902b61ffd9103ad880118.jpg");
             this.BackgroundImageLayout = ImageLayout.Stretch;
@@ -30,6 +46,12 @@ namespace PlanetResearch.Forms
             EditedPlanet = planet;
         }
 
+        /// <summary>
+        /// Обработва натискането на бутона за запис на промените.
+        /// Валидира въведените данни, обновява свойствата на <see cref="EditedPlanet"/> и затваря формата с <see cref="DialogResult.OK"/>.
+        /// </summary>
+        /// <param name="sender">Обектът, който е изпратил събитието.</param>
+        /// <param name="e">Аргументи на събитието.</param>
         private void btnSave_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtName.Text))

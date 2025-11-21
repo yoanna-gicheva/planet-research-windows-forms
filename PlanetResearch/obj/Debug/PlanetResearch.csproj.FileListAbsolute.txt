@@ -7,3 +7,12 @@ E:\Source\Windows Forms\PlanetResearch\PlanetResearch\bin\Debug\PlanetResearch.e
 E:\Source\Windows Forms\PlanetResearch\PlanetResearch\bin\Debug\PlanetResearch.pdb
 E:\Source\Windows Forms\PlanetResearch\PlanetResearch\obj\Debug\PlanetResearch.exe
 E:\Source\Windows Forms\PlanetResearch\PlanetResearch\obj\Debug\PlanetResearch.pdb
+E:\Source\WindowsForms\PlanetResearch\planet-research-windows-forms\PlanetResearch\obj\Debug\PlanetResearch.csproj.AssemblyReference.cache
+E:\Source\WindowsForms\PlanetResearch\planet-research-windows-forms\PlanetResearch\obj\Debug\PlanetResearch.Properties.Resources.resources
+E:\Source\WindowsForms\PlanetResearch\planet-research-windows-forms\PlanetResearch\obj\Debug\PlanetResearch.csproj.GenerateResource.cache
+E:\Source\WindowsForms\PlanetResearch\planet-research-windows-forms\PlanetResearch\obj\Debug\PlanetResearch.csproj.CoreCompileInputs.cache
+E:\Source\WindowsForms\PlanetResearch\planet-research-windows-forms\PlanetResearch\obj\Debug\PlanetResearch.exe
+E:\Source\WindowsForms\PlanetResearch\planet-research-windows-forms\PlanetResearch\obj\Debug\PlanetResearch.pdb
+E:\Source\WindowsForms\PlanetResearch\planet-research-windows-forms\PlanetResearch\bin\Debug\PlanetResearch.exe.config
+E:\Source\WindowsForms\PlanetResearch\planet-research-windows-forms\PlanetResearch\bin\Debug\PlanetResearch.exe
+E:\Source\WindowsForms\PlanetResearch\planet-research-windows-forms\PlanetResearch\bin\Debug\PlanetResearch.pdb
